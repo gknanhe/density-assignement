@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Flow+Circular&family=Space+Grotesk:wght@500&display=swap"); */
+
+/* Example in your styles.css or a dedicated CSS file */
+@font-face {
+  font-family: "Neurial Grotesk";
+  src: url("./assets/fonts/NeurialGrotesk-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #000000;
+  color: aliceblue;
+  font-family: "Neurial Grotesk", sans-serif;
+  /* font-family: "Space Grotesk", sans-serif;  */
+}
+
+.navBtn {
+  background: linear-gradient(86deg, #d4f938 23.09%, #32d875 108.69%);
+  color: #000000;
+  box-shadow: 0px 0px 16px 0px rgba(168, 239, 156, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.navBorder {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.137);
+
+  /* background: rgba(42, 93, 50, 0.2); */
+
+  /* backdrop-filter: blur(20px); */
+}
+
+.heroOneTextContainer {
+  text-align: center;
+  font-family: Neurial Grotesk;
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px; /* 104.167% */
+  letter-spacing: -4.19px;
+}
+.hero1LineHeight {
+  line-height: 100px;
+}
+
+.future {
+  background: linear-gradient(97deg, #78e65d 47.68%, #d5fa39 70.85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Neurial Grotesk;
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: -4.19px;
+}
+
+.frame {
+  background-image: url(./assets/images/frame.png);
+  height: 550px;
+  width: 258px;
+  background-repeat: no-repeat;
+}
+
+.frameMiddel {
+  background-image: url(./assets/images/frame.png);
+  height: 663px;
+  width: 325px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.glow-circle {
+  width: 158%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, #00ff00 0%, rgba(0, 255, 0, 0) 70%);
+  filter: blur(20px); /* Adjust the blur effect as needed */
+  opacity: 0.5; /* Adjust the opacity as needed */
+}
+
+.heroBottomText {
+  border: 1.5px solid rgba(50, 216, 117, 0.28);
+
+  background: rgba(0, 0, 0, 0.05);
+
+  box-shadow: 0px 0px 10px 0px rgba(235, 255, 37, 0.2);
+  backdrop-filter: blur(26.25px);
+}
+
+.gradient-border {
+  position: relative;
+  padding-left: 20px; /* Adjust as needed */
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 1px; /* Adjust the width of the border */
+  background: linear-gradient(
+      to top,
+      rgba(0, 255, 0, 0.386) 50%,
+      /* transparent 50%, */ transparent 100%
+    ),
+    linear-gradient(to bottom, rgba(0, 255, 0, 0.5) 50%, transparent 100%);
+  background-position: left;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.hero2 {
+  background-image: url(../src/assets/images/phone.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h2InsideText {
+  text-align: center;
+  font-family: Neurial Grotesk;
+  font-size: 30.501px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 40.201px; /* 120% */
+  letter-spacing: -0.799px;
+}
+
+.payless {
+  color: #ebff25;
+  font-family: Neurial Grotesk;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 76.882px;
+  letter-spacing: -2.097px;
+}
+
+.hero3Box {
+  background: linear-gradient(
+    180deg,
+    #daf760 -1.86%,
+    rgba(50, 216, 117, 0.96) 146.77%
+  );
+  box-shadow: 0px 0px 40px 0px rgba(226, 255, 111, 0.8);
+}
+
+.boxFrame {
+  border-radius: 8px;
+  background: var(--neutrals-grey-2, #1b1b1f);
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+}
+
+.exploreMarket {
+  border-radius: 8px;
+  background: linear-gradient(86deg, #d4f938 23.09%, #32d875 108.69%);
+
+  box-shadow: 0px 0px 16px 0px rgba(168, 239, 156, 0.8);
+  backdrop-filter: blur(5px);
+}
