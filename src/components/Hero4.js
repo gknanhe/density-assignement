@@ -16,10 +16,10 @@ import graph3 from "../assets/images/graph3.svg";
 const Hero4 = () => {
   return (
     <div className="mt-32 flex justify-center items-center flex-col">
-      <div className="flex justify-center items-center flex-col gap-6 h-[211px] w-[794px]">
+      <div className="flex justify-center items-center flex-col gap-6 h-[211px] w-[808px]">
         <div className="font-bold text-7xl text-center ">
           Explore the Markets like it is your
-          <span className="payless">Playground.</span>
+          <span className="payless"> Playground.</span>
         </div>
         <div className=" font-normal text-2xl fFamilyLight">
           Search for your favorite coins and stay ahead of the market{" "}
