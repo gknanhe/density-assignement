@@ -1,6 +1,8 @@
 import React from "react";
 import Hero1 from "./Hero1";
 import Hero10 from "./Hero10";
+import Hero11 from "./Hero11";
+import Hero12 from "./Hero12";
 import Hero2 from "./Hero2";
 import Hero3 from "./Hero3";
 import Hero4 from "./Hero4";
@@ -23,6 +25,8 @@ const Home = () => {
       <Hero8 />
       <Hero9 />
       <Hero10 />
+      <Hero11 />
+      <Hero12 />
     </div>
   );
 };

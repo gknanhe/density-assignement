@@ -93,7 +93,7 @@ const Hero10 = () => {
           </div>
         </div>
       </div>
-      <div className="mt-9 font-bold tradeNow px-12 py-3 w-fit text-black">
+      <div className="mt-9 font-bold tradeNow px-12 py-3 w-fit text-black mb-[140px]">
         START EARNING NOW
       </div>
     </div>
