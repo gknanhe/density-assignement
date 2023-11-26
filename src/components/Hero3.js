@@ -5,12 +5,12 @@ import density from "../assets/images/densityLogo.svg";
 import dExchange from "../assets/images/dExchange.png";
 const Hero3 = () => {
   return (
-    <div className="flex justify-center items-center flex-col mb-[140px]">
+    <div className="flex justify-center items-center flex-col mb-[280px]">
       <div className="flex justify-center items-center flex-col gap-6">
         <div className="font-bold text-7xl">
           Trade More. <span className="payless">Pay Less.</span>
         </div>
-        <div className="px-28 font-normal text-2xl">
+        <div className="px-28 font-normal text-2xl fFamilyLight">
           Our low Fees Supercharge Your Profits
         </div>
       </div>

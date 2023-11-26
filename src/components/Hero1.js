@@ -8,10 +8,10 @@ const Hero1 = () => {
   return (
     <div className="flex justify-center items-center flex-col">
       <div className="flex justify-center items-center flex-col mt-[80px] gap-10">
-        <div className="font-bold  heroOneTextContainer h-[202px] w-[609px] text-center  ">
+        <div className="font-bold  heroOneTextContainer h-[202px] w-[709px] text-7xl text-center  ">
           It’s time to trade, the <span className="future">future.</span>
         </div>
-        <div className="text-xl">
+        <div className="text-2xl fFamilyLight">
           Trade BTC, ETH Futures with 125x leverage and earn rewards.
         </div>
       </div>

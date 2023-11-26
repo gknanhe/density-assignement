@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav class=" w-screen fade-border dark:bg-[#2A5D3233]  backdrop-blur-md">
+      <nav class=" w-screen fade-border dark:bg-[#2A5D3233]  backdrop-blur-md top-0 left-0">
         <div class="max-w-screen-xl navBorder  flex flex-wrap  items-center justify-center mx-auto py-[24px] self-stretch  gap-[387px]">
           <a
             href="https://flowbite.com/"

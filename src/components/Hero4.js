@@ -21,7 +21,7 @@ const Hero4 = () => {
           Explore the Markets like it is your
           <span className="payless">Playground.</span>
         </div>
-        <div className=" font-normal text-2xl">
+        <div className=" font-normal text-2xl fFamilyLight">
           Search for your favorite coins and stay ahead of the market{" "}
         </div>
       </div>
@@ -149,8 +149,8 @@ const Hero4 = () => {
         </div>
       </div>
       <div className="mt-16 mb-[140px] flex justify-center items-center">
-        <div className="px-14 py-6 rounded-lg text-black font-bold text-lg exploreMarket">
-          EXPLORE MARKET
+        <div className="px-14 py-4 rounded-lg text-black font-bold text-lg exploreMarket">
+          EXPLORE MARKETS
         </div>
       </div>
     </div>

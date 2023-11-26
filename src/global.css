@@ -12,6 +12,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Neurial Light";
+  src: url("./assets/fonts/NeurialGrotesk-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: #000000;
   color: aliceblue;
@@ -19,6 +26,11 @@ body {
   /* font-family: "Space Grotesk", sans-serif;  */
 }
 
+.fFamilyLight {
+  font-family: "Neurial Light";
+  /* font-weight: 500; */
+  color: #e7e7ea;
+}
 .navBtn {
   background: linear-gradient(86deg, #d4f938 23.09%, #32d875 108.69%);
   color: #000000;
@@ -41,7 +53,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 100px; /* 104.167% */
-  letter-spacing: -4.19px;
+  /* letter-spacing: -4.19px; */
 }
 .hero1LineHeight {
   line-height: 100px;
