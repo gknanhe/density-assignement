@@ -12,4 +12,5 @@ module.exports = {
     "gatsby-plugin-postcss",
     // ...
   ],
+  pathPrefix: "/density-assignement",
 };
