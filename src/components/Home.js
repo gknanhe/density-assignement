@@ -3,6 +3,7 @@ import Hero1 from "./Hero1";
 import Hero10 from "./Hero10";
 import Hero11 from "./Hero11";
 import Hero12 from "./Hero12";
+import Hero13 from "./Hero13";
 import Hero2 from "./Hero2";
 import Hero3 from "./Hero3";
 import Hero4 from "./Hero4";
@@ -27,6 +28,7 @@ const Home = () => {
       <Hero10 />
       <Hero11 />
       <Hero12 />
+      <Hero13 />
     </div>
   );
 };

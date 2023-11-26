@@ -229,3 +229,51 @@ body {
   filter: blur(5px);
   z-index: -1;
 }
+
+.getStarted {
+  font-family: Neurial Grotesk;
+  font-size: 132.195px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.783px;
+
+  background: linear-gradient(
+    177deg,
+    #fff 2.77%,
+    rgba(255, 255, 255, 0) 139.85%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.startNow {
+  display: flex;
+  width: 866.226px;
+  height: 134.978px;
+  padding: 11.132px 33.397px;
+  justify-content: center;
+  align-items: center;
+  gap: 6.958px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    269deg,
+    #d4f938 38.89%,
+    rgba(50, 216, 117, 0.96) 103.19%
+  );
+
+  color: #000;
+  font-family: Neurial Grotesk;
+  font-size: 38.267px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: -275px;
+}
+
+.mobiFrame {
+  position: relative;
+  top: -50px;
+}
